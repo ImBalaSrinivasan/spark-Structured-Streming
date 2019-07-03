@@ -1,4 +1,4 @@
-package sparkStructuredStreaming;
+package aggregatedcounter;
 
 import static org.apache.spark.sql.functions.concat;
 import static org.apache.spark.sql.functions.lit;
@@ -15,6 +15,7 @@ import org.apache.spark.sql.streaming.StreamingQueryException;
 import org.apache.spark.sql.types.DataTypes;
 import org.apache.spark.sql.types.StructType;
 
+import nrtcounter.CalculatevalueNRT;
 import utils.Sparkconfig;
 
 public class CounterAggregated {

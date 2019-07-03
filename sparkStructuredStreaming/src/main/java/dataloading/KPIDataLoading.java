@@ -1,4 +1,4 @@
-package sparkStructuredStreaming;
+package dataloading;
 
 import java.sql.Timestamp;
 

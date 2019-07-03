@@ -1,4 +1,4 @@
-package sparkStructuredStreaming;
+package nrtcounter;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
