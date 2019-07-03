@@ -1,0 +1,4 @@
+./spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.4.3 --class sparkStructuredStreaming.CounterAggregatedSecond  --master local[*] /home/bala/eclipse-workspace/sparkStructuredStreaming/target/sparkStructuredStreaming-0.0.1-SNAPSHOT.jar
+
+
+./spark-submit --class sparkStructuredStreaming.SampleWindow  --master local[*] /home/bala/eclipse-workspace/sparkStructuredStreaming/target/sparkStructuredStreaming-0.0.1-SNAPSHOT.jar
