@@ -1,0 +1,2 @@
+"id","name","formula","raw_formula"
+"12345","sample1","MIN(Counter_84151147)/MAX(Counter_84151150)", "84150585 + ( 84150587 + 84150588 ) + 84150591"
